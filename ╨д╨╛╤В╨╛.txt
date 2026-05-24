@@ -1,0 +1,44 @@
+1. Файл: images/hero-main-house.jpg
+Премиальный современный дом в корейском стиле, full screen hero image for luxury construction website, Korean minimalist architecture, large panoramic windows, soft ivory facade, warm wood accents, stone steps, calm landscaping, elegant evening light, photorealistic, ultra detailed, cinematic wide shot
+
+2. Файл: images/about-team-office.jpg
+Корейская архитектурная студия и строительная команда в современном минималистичном офисе, architects and engineers discussing a private house project, Korean interior aesthetic, soft natural light, premium corporate atmosphere, photorealistic
+
+3. Файл: images/project-urban-mini-84.jpg
+Компактный частный дом в современном корейском стиле, Korean minimal house 84 square meters, one floor, light facade, wood and plaster, clean geometry, quiet garden, photorealistic exterior render, front view
+
+4. Файл: images/project-family-comfort-132.jpg
+Семейный двухэтажный дом в корейском стиле, modern Korean family house 132 square meters, bright facade, large windows, warm wood details, terrace, elegant suburban setting, photorealistic exterior render
+
+5. Файл: images/project-residence-a-186.jpg
+Премиальная резиденция в современном корейском стиле, luxury Korean villa 186 square meters, garage, panoramic glazing, stone and wood facade, refined proportions, cinematic lighting, high-end photorealistic architecture render
+
+6. Файл: images/calculator-cover.jpg
+Современный корейский дом для блока расчета стоимости, elegant Korean architecture, soft beige and jade palette, premium residential render, clean composition, no text, photorealistic, website friendly
+
+7. Файл: images/gallery-01-main-facade.jpg
+Главный фасад современного корейского дома, Korean minimalist private house exterior, soft daylight, elegant landscaping, photorealistic architectural render
+
+8. Файл: images/gallery-02-evening-light.jpg
+Корейский частный дом в вечерней подсветке, warm ambient light, calm premium atmosphere, minimal architecture, wet stone path, photorealistic render
+
+9. Файл: images/gallery-03-living-kitchen.jpg
+Кухня-гостиная в корейском стиле, modern Korean interior, natural wood, ivory walls, clean lines, soft daylight, premium furniture, photorealistic interior render
+
+10. Файл: images/gallery-04-master-bedroom.jpg
+Мастер-спальня в современном корейском доме, Korean bedroom aesthetic, calm neutral tones, textile and wood, large window, serene atmosphere, photorealistic interior
+
+11. Файл: images/gallery-05-terrace.jpg
+Терраса частного дома в корейском стиле, minimalist outdoor lounge, warm sunset, wood deck, quiet elegant composition, photorealistic render
+
+12. Файл: images/gallery-06-kids-room.jpg
+Детская комната в современном корейском доме, soft Korean minimalism, bright safe interior, natural materials, elegant simplicity, photorealistic interior visualization
+
+13. Файл: images/gallery-07-stair-hall.jpg
+Лестничный холл в доме корейского стиля, double-height space, soft light, wood and stone details, elegant Korean interior, photorealistic render
+
+14. Файл: images/gallery-08-site-entry.jpg
+Въездная группа и благоустройство участка современного корейского дома, stone path, trimmed greenery, calm premium composition, photorealistic exterior render
+
+15. Файл: images/contacts-manager-team.jpg
+Команда корейской строительной компании консультирует клиента в светлом минималистичном офисе, premium service atmosphere, modern Korean corporate style, photorealistic

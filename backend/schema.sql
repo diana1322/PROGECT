@@ -1,0 +1,31 @@
+-- SQL-структура проекта «한집» для учебного сервера MySQL/MariaDB
+
+CREATE TABLE IF NOT EXISTS applications (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  fullname VARCHAR(150) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  phone VARCHAR(30) NOT NULL,
+  company VARCHAR(150) NOT NULL DEFAULT '',
+  message TEXT NOT NULL,
+  project_name VARCHAR(150) NOT NULL DEFAULT '',
+  region_name VARCHAR(120) NOT NULL DEFAULT '',
+  city_name VARCHAR(120) NOT NULL DEFAULT '',
+  package_name VARCHAR(80) NOT NULL DEFAULT '',
+  extras_text TEXT NOT NULL,
+  estimate VARCHAR(80) NOT NULL DEFAULT '',
+  ip_address VARCHAR(45) NOT NULL DEFAULT '',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS admin_users (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  login VARCHAR(64) NOT NULL UNIQUE,
+  pass_hash CHAR(32) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO admin_users (login, pass_hash)
+SELECT 'hanjip_admin', '4a70232ad3978707dc36fe8ea198b764'
+WHERE NOT EXISTS (
+  SELECT 1 FROM admin_users WHERE login = 'hanjip_admin'
+);

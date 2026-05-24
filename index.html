@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="한집 — корейская строительная компания. Современные дома в корейском стиле, технологичное строительство, выбор проекта, региона и расчёт стоимости онлайн.">
+  <title>한집 — корейские дома нового поколения</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell"></div>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#top" aria-label="한집 — на главную">
+        <span class="brand-mark">한집</span>
+        <span class="brand-text">Korean House Technology</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Главное меню">
+        <a href="#about">О компании</a>
+        <a href="#projects">Проекты</a>
+        <a href="#calculator">Стоимость</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <button class="button button--small js-open-modal" type="button">Оставить заявку</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media is-empty">
+        <img class="hero-background js-managed-image" src="images/hero-main-house.jpg" alt="Современный корейский дом 한집" loading="eager">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Корейская технология строительства</p>
+        <h1>Эстетичные дома в корейском стиле для современной жизни</h1>
+        <p class="hero-text">
+          한집 проектирует и строит дома с корейской архитектурной эстетикой: чистые линии, продуманная планировка,
+          тёплая фактура дерева, светлые интерьеры и технологичные инженерные решения для комфортной жизни круглый год.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button" href="#projects">Выбрать проект</a>
+          <a class="button button--ghost" href="#calculator">Рассчитать стоимость</a>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong>11 лет</strong>
+            <span>опыта в малоэтажном строительстве</span>
+          </article>
+          <article class="stat-card">
+            <strong>240+</strong>
+            <span>реализованных частных домов</span>
+          </article>
+          <article class="stat-card">
+            <strong>от 4 месяцев</strong>
+            <span>срок строительства проекта</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">О компании</p>
+          <h2 class="section-title">Корейская лаконичность, инженерная точность и дом, в который хочется возвращаться</h2>
+          <p class="section-text">
+            Мы создаём дома, вдохновлённые современной корейской архитектурой: мягкая палитра, спокойные фасады,
+            большие окна, функциональные планировки и высокая культура деталей. Такой дом выглядит статусно,
+            остаётся уютным и не теряет актуальности с годами.
+          </p>
+          <div class="feature-grid feature-grid--client">
+            <article class="feature-card">
+              <h3>Чистая архитектура</h3>
+              <p>Минимализм, свет, натуральные материалы и продуманные фасадные решения без визуального шума.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Технологичное исполнение</h3>
+              <p>Тёплый контур, инженерные узлы, энергоэффективность и продуманный комфорт для разных регионов.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Индивидуальная адаптация</h3>
+              <p>Помогаем подобрать проект под участок, образ жизни семьи, климат и желаемый бюджет.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="media-card is-empty">
+          <img class="smart-image js-managed-image" src="images/about-team-office.jpg" alt="Архитекторы и инженеры 한집" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Проекты</p>
+          <h2 class="section-title">Три направления корейского частного дома</h2>
+          <p class="section-text section-text--center">
+            От компактного семейного дома до статусной резиденции — каждая модель сохраняет корейскую эстетику,
+            визуальную лёгкость и удобство повседневной жизни.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card__image is-empty">
+              <img class="smart-image js-managed-image" src="images/project-urban-mini-84.jpg" alt="Проект Hanok Urban 84" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <p class="project-label">Городской формат</p>
+              <h3>Hanok Urban 84</h3>
+              <p>Компактный одноэтажный дом с открытой кухней-гостиной, мягкой палитрой и удобной приватной зоной.</p>
+              <ul>
+                <li>84 м² · 3 комнаты</li>
+                <li>Терраса и панорамное остекление</li>
+                <li>Подходит для небольшого участка</li>
+              </ul>
+              <button class="button button--small js-pick-project" type="button" data-project="urban">Выбрать проект</button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image is-empty">
+              <img class="smart-image js-managed-image" src="images/project-family-comfort-132.jpg" alt="Проект Seoul Family 132" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <p class="project-label">Семейный дом</p>
+              <h3>Seoul Family 132</h3>
+              <p>Двухэтажный дом для постоянного проживания: просторная общая зона, мастер-спальня и кабинет.</p>
+              <ul>
+                <li>132 м² · 4 спальни</li>
+                <li>Большие окна и светлая лестничная зона</li>
+                <li>Баланс эстетики и функциональности</li>
+              </ul>
+              <button class="button button--small js-pick-project" type="button" data-project="family">Выбрать проект</button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image is-empty">
+              <img class="smart-image js-managed-image" src="images/project-residence-a-186.jpg" alt="Проект Busan Signature 186" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <p class="project-label">Премиальная резиденция</p>
+              <h3>Busan Signature 186</h3>
+              <p>Флагманский дом с гаражом, панорамными фасадами, приватным мастер-блоком и представительским образом.</p>
+              <ul>
+                <li>186 м² · 5 комнат</li>
+                <li>Гараж, терраса, светлый холл</li>
+                <li>Подходит для статуса и комфорта</li>
+              </ul>
+              <button class="button button--small js-pick-project" type="button" data-project="residence">Выбрать проект</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="calculator">
+      <div class="container calculator-layout">
+        <div>
+          <div class="section-heading section-heading--left">
+            <p class="eyebrow">Стоимость</p>
+            <h2 class="section-title">Подберите дом, регион и уровень комплектации</h2>
+            <p class="section-text">
+              Калькулятор показывает ориентировочную стоимость проекта с учётом региона строительства,
+              города, выбранной комплектации и дополнительных опций.
+            </p>
+          </div>
+
+          <form class="calculator-card" id="calculatorForm">
+            <div class="form-grid">
+              <label>
+                <span>Проект дома</span>
+                <select id="projectSelect" name="project"></select>
+              </label>
+
+              <label>
+                <span>Регион</span>
+                <select id="regionSelect" name="region"></select>
+              </label>
+
+              <label>
+                <span>Город</span>
+                <select id="citySelect" name="city"></select>
+              </label>
+
+              <label>
+                <span>Комплектация</span>
+                <select id="packageSelect" name="package">
+                  <option value="base">Essential</option>
+                  <option value="comfort">Comfort</option>
+                  <option value="premium">Signature</option>
+                </select>
+              </label>
+            </div>
+
+            <fieldset class="extras-group">
+              <legend>Дополнительные опции</legend>
+              <label><input type="checkbox" name="extras" value="terrace"> Терраса</label>
+              <label><input type="checkbox" name="extras" value="garage"> Гараж</label>
+              <label><input type="checkbox" name="extras" value="smart"> Умный дом</label>
+              <label><input type="checkbox" name="extras" value="design"> Интерьерный пакет</label>
+            </fieldset>
+          </form>
+        </div>
+
+        <aside class="result-card glass-card" id="resultCard">
+          <div class="result-image is-empty">
+            <img class="smart-image js-managed-image" src="images/calculator-cover.jpg" alt="Корейский дом для блока расчёта стоимости" loading="lazy">
+          </div>
+          <p class="eyebrow">Предварительная смета</p>
+          <h3 id="resultPrice">0 ₽</h3>
+          <div class="result-list">
+            <div><span>Проект</span><strong id="summaryProject">—</strong></div>
+            <div><span>Регион</span><strong id="summaryRegion">—</strong></div>
+            <div><span>Город</span><strong id="summaryCity">—</strong></div>
+            <div><span>Площадь</span><strong id="summaryArea">—</strong></div>
+            <div><span>Комплектация</span><strong id="summaryPackage">—</strong></div>
+            <div><span>Срок</span><strong id="summaryTerm">—</strong></div>
+          </div>
+          <p class="result-note" id="resultNote">Финальная стоимость зависит от геологии участка, логистики и состава работ.</p>
+          <button class="button js-open-modal" type="button">Получить персональное предложение</button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Галерея</p>
+          <h2 class="section-title">Пространства, где корейская эстетика встречается с повседневным комфортом</h2>
+        </div>
+
+        <div class="slider" aria-label="Галерея проектов">
+          <button class="slider__arrow" id="prevSlide" type="button" aria-label="Предыдущий слайд">←</button>
+          <div class="slider__viewport">
+            <div class="slider__track" id="sliderTrack">
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-01-main-facade.jpg" alt="Главный фасад корейского дома" loading="lazy">
+                </div>
+                <span>01</span><h3>Главный фасад</h3><p>Архитектура с мягкими линиями и выразительным объёмом.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-02-evening-light.jpg" alt="Вечерняя подсветка дома" loading="lazy">
+                </div>
+                <span>02</span><h3>Вечерний свет</h3><p>Тёплая подсветка подчёркивает фактуры дерева, камня и стекла.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-03-living-kitchen.jpg" alt="Кухня-гостиная корейского дома" loading="lazy">
+                </div>
+                <span>03</span><h3>Кухня-гостиная</h3><p>Открытое пространство с ощущением воздуха, света и порядка.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-04-master-bedroom.jpg" alt="Мастер-спальня" loading="lazy">
+                </div>
+                <span>04</span><h3>Мастер-спальня</h3><p>Спокойная палитра и приватная атмосфера для ежедневного восстановления.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-05-terrace.jpg" alt="Терраса корейского дома" loading="lazy">
+                </div>
+                <span>05</span><h3>Терраса</h3><p>Место для утреннего света, тишины и отдыха на открытом воздухе.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-06-kids-room.jpg" alt="Детская комната" loading="lazy">
+                </div>
+                <span>06</span><h3>Детская</h3><p>Светлый и безопасный интерьер с мягким визуальным ритмом.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-07-stair-hall.jpg" alt="Лестничный холл" loading="lazy">
+                </div>
+                <span>07</span><h3>Лестничный холл</h3><p>Вертикальное пространство, наполненное естественным светом.</p>
+              </article>
+              <article class="slide-card">
+                <div class="slide-media is-empty">
+                  <img class="smart-image js-managed-image" src="images/gallery-08-site-entry.jpg" alt="Участок и въездная группа" loading="lazy">
+                </div>
+                <span>08</span><h3>Участок и въезд</h3><p>Благоустройство усиливает архитектуру и подчёркивает статус дома.</p>
+              </article>
+            </div>
+          </div>
+          <button class="slider__arrow" id="nextSlide" type="button" aria-label="Следующий слайд">→</button>
+        </div>
+
+        <p class="slider__pager" id="sliderPager">Страница 1 из 3</p>
+      </div>
+    </section>
+
+    <section class="section section--accent" id="contacts">
+      <div class="container contact-banner">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2 class="section-title">Подберём проект в корейском стиле под ваш участок и бюджет</h2>
+          <p class="section-text">
+            Оставьте заявку, и мы подготовим предварительное предложение: подберём подходящий проект,
+            комплектацию, визуальный характер дома и ориентировочную смету для вашего региона.
+          </p>
+          <div class="contact-actions">
+            <button class="button js-open-modal" type="button">Оставить заявку</button>
+            <a class="button button--ghost" href="#calculator">Сделать расчёт</a>
+          </div>
+        </div>
+        <div class="media-card media-card--compact is-empty">
+          <img class="smart-image js-managed-image" src="images/contacts-manager-team.jpg" alt="Команда 한집" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>한집</strong>
+        <p>Корейские дома нового поколения — архитектура, технология и комфорт, собранные в одном проекте.</p>
+      </div>
+      <div>
+        <p>Проекты, расчёт стоимости, подбор комплектации и консультация по строительству.</p>
+      </div>
+      <div>
+        <p>© <span id="currentYear"></span> 한집</p>
+        <p>Modern Korean House Technology</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="applicationModal" aria-hidden="true">
+    <div class="modal__backdrop js-close-modal"></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close js-close-modal" type="button" aria-label="Закрыть">×</button>
+      <p class="eyebrow">Консультация</p>
+      <h2 id="modalTitle">Расскажите, какой дом вы хотите</h2>
+
+      <form class="modal-form" id="applicationForm">
+        <label>
+          <span>ФИО</span>
+          <input type="text" name="fullname" placeholder="Иванов Иван Иванович" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="example@mail.ru" required>
+        </label>
+        <label>
+          <span>Телефон</span>
+          <input type="tel" name="phone" placeholder="+7 (900) 000-00-00" required>
+        </label>
+        <label>
+          <span>Организация</span>
+          <input type="text" name="company" placeholder="Если есть">
+        </label>
+        <label>
+          <span>Комментарий</span>
+          <textarea name="message" rows="4" placeholder="Например: интересует дом в корейском стиле 120–140 м² в Краснодаре с террасой"></textarea>
+        </label>
+        <label class="consent-row">
+          <input type="checkbox" name="consent" required>
+          <span>Согласен(на) с обработкой персональных данных</span>
+        </label>
+        <button class="button" type="submit">Отправить заявку</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
